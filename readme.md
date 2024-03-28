@@ -32,7 +32,7 @@ Start by pulling the jupyter/all-spark-notebook image, which is packed with Spar
     Run the Docker image and make sure to map it to the directory we created in step 3.
     
     ```bash
-    docker run -d -P --name notebook -v /Users/jasper.brancart/sparkdata  jupyter/all-spark-notebook:spark-3.5.0
+    docker run -d -P --name notebook -v {YOUR_FOLDER_HERE} jupyter/all-spark-notebook:spark-3.5.0
     ```
 
 
