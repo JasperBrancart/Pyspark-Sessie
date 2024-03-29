@@ -24,7 +24,7 @@ Start by pulling the jupyter/all-spark-notebook image, which is packed with Spar
     Create a directory for the sparkdata on your device. For example:
 
     ```bash
-    /Users/jasper.brancart/sparkdata
+    /Users/jasper.brancart/sparkdata:/sparkdata
     ```
 
 3. **Run the Docker Container**
