@@ -1,62 +1,29 @@
 # Setting Up a PySpark Notebook Using Docker
 
-This guide will walk you through setting up a PySpark notebook environment using Docker.
+This Github is part of an introductionairy training for PySpark. In this training we will discuss Spark and it's surrounding concepts. We will be using the Python language to interact with Spark.
 
-## Prerequisites
-
-- Docker installed on your machine
-
-## Steps
-Step 1: Pull the Docker Image
-
-Start by pulling the jupyter/all-spark-notebook image, which is packed with Spark 3.5.0.
-
-1. **Pull the Docker Image**
-
-    Start by opening the commandline. Pull the jupyter/all-spark-notebook image by issuing the following command:
-    
-    ```bash
-    docker pull jupyter/all-spark-notebook:spark-3.5.0
-    ```
-
-2. **Set Up Your Workspace**
-
-    Create a directory for the sparkdata on your device. For example:
-
-    ```bash
-    /Users/jasper.brancart/sparkdata
-    ```
-
-3. **Run the Docker Container**
-
-    Run the Docker image and make sure to map it to the directory we created in step 3.
-    
-    ```bash
-    docker run -d -P --name notebook -v {YOUR_FOLDER_HERE} jupyter/all-spark-notebook:spark-3.5.0
-    ```
+## Learning goals
+- Introduction to Python and it's syntax
+- Learn the basics of Spark
+    - What is a distributed system? And how does it affect fault tollerance
+    - What is a RDD?
+    - What is a dataframe?
+- Basic dataframe operations
 
 
-4. **Locate your notebook**
 
-    Check what port the Notebook is hosted to
-    
-    ```bash
-    docker port notebook 8888
-    ```
+## Intro to PySpark
 
-5. **Access your notebook**
+To introduce PySpark we are Using Coder2J's great [PySpark Tutorial.](https://github.com/coder2j/pyspark-tutorial/tree/main).
 
-    Issue the following command to fetch your security token.
+Our main goals are to get a feel for how to get started with Spark, Python syntax and their functionalities.
 
-   ```bash
-   docker logs --tail 3 notebook
-   ```
-  *Update the default port (8888) in the above URL with the port you found in step 4*
 
-  (ie. http://127.0.0.1:32776/lab?token=YOUR_TOKEN)
-   
-   
+## To get started with the excercises
 
-## Conclusion
+1. Start the Docker desktop application
+2. Go to the [Docker Setup](https://github.com/JasperBrancart/Pyspark-Sessie/blob/main/SetupDocker.md) page and follow the steps
 
-You've successfully set up a PySpark notebook environment using Docker. Happy coding!
+## Excercises
+
+To introduce PySpark we are Using Coder2J's great [PySpark Tutorial.](https://github.com/coder2j/pyspark-tutorial/tree/main).
