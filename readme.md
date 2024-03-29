@@ -11,14 +11,6 @@ This Github is part of an introductionairy training for PySpark. In this trainin
 - Basic dataframe operations
 
 
-
-## Intro to PySpark
-
-To introduce PySpark we are Using Coder2J's great [PySpark Tutorial.](https://github.com/coder2j/pyspark-tutorial/tree/main).
-
-Our main goals are to get a feel for how to get started with Spark, Python syntax and their functionalities.
-
-
 ## To get started with the excercises
 
 1. Start the Docker desktop application
@@ -26,4 +18,4 @@ Our main goals are to get a feel for how to get started with Spark, Python synta
 
 ## Excercises
 
-To introduce PySpark we are Using Coder2J's great [PySpark Tutorial.](https://github.com/coder2j/pyspark-tutorial/tree/main).
+To introduce PySpark we are usingthe Urban Institutes [PySpark Tutorial.]([https://github.com/coder2j/pyspark-tutorial/tree/main](https://github.com/UrbanInstitute/pyspark-tutorials/)).
